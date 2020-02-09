@@ -13,7 +13,7 @@ const DogCard = props => {
     }
     return (
 
-        <div>
+        <div className="Title">
             <h1>Look at this nice dog...</h1>
             {props.error ? (
                 <div className="error">{props.error}</div>

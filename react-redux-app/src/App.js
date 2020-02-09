@@ -5,10 +5,12 @@ import DogRefresh from './components/DogRefresh';
 
 function App() {
   return (
-    <div>
-      <h1>Another Dog App!</h1>
-      <DogCard />
-      <DogRefresh />
+    <div className="App">
+      <div className="Body">
+        <h1>Another Dog App!</h1>
+        <DogCard />
+        <DogRefresh />
+      </div>
     </div>
   );
 }
